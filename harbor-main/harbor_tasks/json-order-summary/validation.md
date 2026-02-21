@@ -23,6 +23,8 @@ This file documents the step-by-step validation process, expected outcomes, and 
    ```
 4. Clean any old job directories (prevents config mismatch errors):
    ```bash
+   {jobs/test-oracle/
+   jobs/test-nop/} if its needed then apply
    rm -rf jobs/test-oracle jobs/test-nop
    ```
 5. Run Oracle (should pass with reward 1.0):
